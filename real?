@@ -1,10 +1,16 @@
 local funny = true
 local confused = false
-function(memeseen)
-if funny and not confused then
-  print(":77luck:")
-elseif not funny and not confused then
-  print(":53dude:")
-elseif not funny and confused then
-  print(":67wow:")
+
+local function memeseen()
+  if funny and not confused then
+    print("m77")
+  elseif not funny and not confused then
+    print("okball")
+  elseif not funny and confused then
+    print("gal")
+  elseif funny and confused then
+    print(":goober:")
+  end
 end
+
+memeseen()
