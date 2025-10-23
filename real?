@@ -1,9 +1,10 @@
 local funny = true
 local confused = false
-
-if funny == true and confused == false then
-   print(":77luck:")
-else if funny == false and confused == false thrn
-   print(":53dude:")
-elseif fanny == false and confused == true then
-  print (":67wow:")
+function(memeseen)
+if funny and not confused then
+  print(":77luck:")
+elseif not funny and not confused then
+  print(":53dude:")
+elseif not funny and confused then
+  print(":67wow:")
+end
